@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the ScriptureMemorizer Project.");
+        ScriptureMemorizer memorizer = new ScriptureMemorizer();
+        memorizer.Run();
     }
 }
